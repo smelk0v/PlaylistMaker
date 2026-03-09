@@ -31,17 +31,3 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
-
-class SettingsActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
-
-        val buttonBack = findViewById<ImageView>(R.id.buttonBack)
-        buttonBack.setOnClickListener {
-            val displayIntent = Intent(this, MainActivity::class.java)
-            startActivity(displayIntent)
-        }
-
-    }
-}
