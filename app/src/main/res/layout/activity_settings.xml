@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="12dp"
             android:layout_weight="1"
-            android:text="Настройки"
+            android:text="@string/txt_setup"
             android:textColor="#050000"
             android:textSize="22sp" />
     </LinearLayout>
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Темная тема"
+            android:text="@string/txt_them"
             android:textSize="16sp" />
 
         <Switch
@@ -65,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Поделиться приложением"
+            android:text="@string/txt_app"
             android:textSize="16sp" />
 
         <ImageView
@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Написать в поддержку"
+            android:text="@string/txt_support"
             android:textSize="16sp" />
 
         <ImageView
@@ -109,7 +109,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Пользовательское соглашение"
+            android:text="@string/txt_txt"
             android:textSize="16sp" />
 
         <ImageView

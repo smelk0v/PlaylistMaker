@@ -3,4 +3,10 @@
     <string name="button_find">Поиск</string>
     <string name="button_media">Медиатека</string>
     <string name="button_setup">Настройки</string>
+
+    <string name="txt_setup">Настройки</string>
+    <string name="txt_them">Тёмная тема</string>
+    <string name="txt_app">Поделиться приложением</string>
+    <string name="txt_support">Написать в поддержку</string>
+    <string name="txt_txt">Пользовательское соглашение</string>
 </resources>
